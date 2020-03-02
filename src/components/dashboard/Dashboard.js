@@ -1,8 +1,8 @@
-import React, {Components} from 'react';
+import React, {Component} from 'react';
 import Notifications from './Notifications';
 import ProjectList from '../projects/ProjectList';
 
-class Dashboard extends Components {
+class Dashboard extends Component {
     render(){
         return (
             <div className="dashboard container">
